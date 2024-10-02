@@ -27,6 +27,11 @@
   width: 500px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .tab-block {
   background-color: rgb(0, 0, 0, 0);
   border-color: rgb(0, 0, 0, 0);
@@ -132,14 +137,45 @@ h3 {
   transform: translateY(-4px);
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 740px) {
+  body {
+    position: absolute;
+  }
+
   article {
     word-wrap: break-word;
     white-space: pre-wrap;
     word-break: break-word;
+    position: relative;
   }
 
-  body {
+  img {
+    width: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+  #photo {
+    height: 300px;
+    width: auto;
+  }
+
+  .must {
+    height: 50px;
+    width: auto;
+  }
+
+  .footer {
     width: 100%;
+  }
+
+  .foot-container {
+    display: flex;
+    /* justify-content: flex-start; */
   }
 }
