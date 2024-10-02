@@ -155,10 +155,10 @@ a:link {
   color: black;
   text-decoration: none;
 }
+a:visited {
+    color: black;
+    text-decoration: none;
+}
 a:hover {
   color: hsl(214, 100%, 70%);
 }
-a:visited{
-    color: black;
-    text-decoration: none;
-  }
