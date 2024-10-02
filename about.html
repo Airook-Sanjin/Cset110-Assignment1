@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="about.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="about.css" />
+    <title>Mustacchio</title>
   </head>
   <body>
-    <nav>
-      <div class="logo"><img src="" /></div>
-      <ul class="nav-pages">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="Header">
+      <div id="logo">
+        <img src="/images/logo.jpg" alt="mustacchioLogo" />
+      </div>
+      <div id="tabs">
+        <button class="tab-block">Home</button>
+        <button class="tab-block">About</button>
+        <button class="tab-block">Gallery</button>
+        <button class="tab-block">Blog</button>
+        <button class="tab-block">Contact</button>
+      </div>
+    </div>
+
     <br />
     <div class="heading">
       <div class="h-cont"><h1>Mustacchio Started</h1></div>
@@ -27,7 +30,7 @@
     </div>
     <br />
 
-    <article id="p1">
+    <article>
       <h3>We Have Free Templates for Everyone</h3>
       <p>
         Our website templates are created with inspiration, checked for quality
@@ -70,14 +73,34 @@
         About content.
       </p>
     </article>
-    <footer>
-      <p id="copyright">2023 by Mustacchio. All Rights Reserved.</p>
-      <ul class="sns">
-        <li class="Twitter"><img src="" /></li>
-        <li class="Facebook"><img src="" /></li>
-        <li class="Google"><img src="" /></li>
-        <li class="Pinterest"><img src="" /></li>
-      </ul>
-    </footer>
+    <div class="footer">
+      <div class="foot-container">
+        <div id="foot-text">
+          <p>2023 by Mustacchio. All rights reserved</p>
+        </div>
+        <div class="foot-icons">
+          <img
+            class="icons"
+            src="/images/icons/icon-twitter.jpg"
+            alt="twitter"
+          />
+          <img
+            class="icons"
+            src="/images/icons/icon-facebook.jpg"
+            alt="facebook"
+          />
+          <img
+            class="icons"
+            src="/images/icons/icon-googleplus.jpg"
+            alt="googleplus"
+          />
+          <img
+            class="icons"
+            src="/images/icons/icon-pinterest.jpg"
+            alt="Pintrest"
+          />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
