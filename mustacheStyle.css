@@ -12,7 +12,6 @@
   width: 500px;
 
   flex-direction: column;
-
 }
 #logo {
   display: flex;
@@ -34,10 +33,22 @@
   font-weight: bolder;
   font-size: large;
 }
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(214, 100%, 70%);
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+  }
 .tab-block:hover {
   color: hsl(214, 100%, 70%);
   transform: translateY(-4px);
 }
+
 .Page {
   display: flex;
   flex-wrap: wrap;
@@ -70,7 +81,7 @@
   width: 40%;
   text-align: center;
   font-weight: 900;
-  
+
   /* align-self:center ; */
 }
 #content-button {
@@ -94,8 +105,8 @@
   border: solid 5px hsl(0, 0%, 13%);
   box-shadow: 0px 4px 4px #000030, 0px 12px 12px #000015;
 }
-.FAN:hover{
-    scale: 1.05;
+.FAN:hover {
+  scale: 1.05;
 }
 .FAN-text {
   display: flex;
@@ -104,39 +115,38 @@
   font-weight: bolder;
   font-size: x-large;
 }
-.footer{
-    background-color: hsl(0, 0%, 13%);
-    /* flex:1; */
-    height: 150px;
-    width: 100%;
-    margin-bottom: 80px;
+.footer {
+  background-color: hsl(0, 0%, 13%);
+  /* flex:1; */
+  height: 150px;
+  width: 100%;
+  margin-bottom: 80px;
 }
-.foot-container{
-    display: flex;
-    height: 100%;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.foot-container {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-#foot-text{
-    color: white;
+#foot-text {
+  color: white;
 }
-.foot-icons{
-    display:flex;
-    flex-direction: row;
-    height: fit-content;
-    gap:30px;
+.foot-icons {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 30px;
 }
-.icons:hover{
-    transform: translateY(-4px);
+.icons:hover {
+  transform: translateY(-4px);
 }
 @media screen and (min-width: 640px) {
   .page {
     display: flex;
     background-size: cover;
   }
-  .gallery{
-    display:flex;
-
+  .gallery {
+    display: flex;
   }
 }
