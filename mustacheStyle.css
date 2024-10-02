@@ -40,10 +40,10 @@ a:link {
 a:hover {
   color: hsl(214, 100%, 70%);
 }
-a:visited{
-    color: black;
-    text-decoration: none;
-  }
+a:visited {
+  color: black;
+  text-decoration: none;
+}
 .tab-block:hover {
   color: hsl(214, 100%, 70%);
   transform: translateY(-4px);
@@ -53,7 +53,7 @@ a:visited{
   display: flex;
   flex-wrap: wrap;
   padding: 10%;
-  background-image: url("/images/the-beacon.jpg");
+  background-image: url("images/the-beacon.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   flex-direction: column;
