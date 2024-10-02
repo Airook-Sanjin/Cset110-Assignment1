@@ -8,19 +8,18 @@
 .Header {
   display: flex;
   flex-wrap: wrap;
-  margin: 100px auto;
+  margin: 50px auto;
   width: 500px;
 
   flex-direction: column;
 
-  flex:1 1 340px;
 }
 #logo {
   display: flex;
   margin: 0 auto;
 }
 #tabs {
-  margin: 100px auto;
+  margin: 50px auto;
   display: flex;
   flex: 0 1;
   flex-direction: row;
@@ -86,11 +85,15 @@
 }
 .FAN {
   border: solid 5px hsl(0, 0%, 13%);
+  box-shadow: 0px 4px 4px #000030, 0px 12px 12px #000015;
+}
+.FAN:hover{
+    scale: 1.05;
 }
 .FAN-text {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 25px;
   font-weight: bolder;
   font-size: x-large;
 }
@@ -111,11 +114,14 @@
 #foot-text{
     color: white;
 }
-.icon{
+.foot-icons{
     display:flex;
     flex-direction: row;
     height: fit-content;
     gap:30px;
+}
+.icons:hover{
+    transform: translateY(-4px);
 }
 @media screen and (min-width: 640px) {
   .page {
