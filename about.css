@@ -139,14 +139,22 @@ h3 {
 
 @media only screen and (max-width: 740px) {
   body {
-    position: absolute;
+    margin: auto;
   }
 
-  article {
+  article,
+  article p {
     word-wrap: break-word;
     white-space: pre-wrap;
     word-break: break-word;
     position: relative;
+    text-wrap: wrap;
+    text-overflow: hidden;
+    font-size: 16px;
+  }
+
+  article h3 {
+    text-align: center;
   }
 
   img {
@@ -170,12 +178,32 @@ h3 {
     width: auto;
   }
 
-  .footer {
+  .foot-container {
+    display: inline-block;
+    position: relative;
     width: 100%;
+    height: auto;
+    overflow: hidden;
   }
 
-  .foot-container {
+  .footer {
+    width: 100%;
     display: flex;
-    /* justify-content: flex-start; */
+    align-content: stretch;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #foot-text {
+    display: flex;
+  }
+
+  .h-cont {
+    width: 500px;
+  }
+  .content {
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
   }
 }
